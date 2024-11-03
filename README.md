@@ -107,8 +107,8 @@ If you have any questions or need help with setup, please:
 
 ## Roadmap
 
-- [x] Basic attendance tracking
-- [x] Admin authentication
+- [ ] Basic attendance tracking
+- [ ] Admin authentication
 - [ ] REST API implementation
 - [ ] Terminal application
 - [ ] Advanced reporting features
