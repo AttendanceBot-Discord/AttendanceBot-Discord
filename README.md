@@ -8,7 +8,6 @@ A Discord bot built with Rust that helps track and manage attendance in Discord 
 - **Attendance Tracking**
   - Track user attendance through Discord commands
   - View attendance history and statistics
-  - Export attendance data in various formats
 
 - **Secure Admin Authentication**
   - Admin-only commands and features
@@ -57,16 +56,17 @@ cargo run
 
 ### Basic Commands
 ```
-/attendance check - Mark your attendance
+/attendance check-in - Mark your attendance
 /attendance status - Check your attendance status
 /attendance history - View your attendance history
 ```
 
 ### Admin Commands
 ```
+/admin register - Register the admin
 /admin login - Authenticate as admin
-/admin config - Configure bot settings
-/admin report - Generate attendance reports
+/admin register-team @team_name - Register a team
+/admin report @team_name - Show team report in one month
 ```
 
 ## Configuration
