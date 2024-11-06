@@ -1,0 +1,8 @@
+-- Your SQL goes here
+CREATE TABLE teams (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    admin_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
